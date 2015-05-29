@@ -26,3 +26,15 @@ C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\System.Web.WebPages.Razo
 C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\obj\Debug\StarTeamApp.csprojResolveAssemblyReference.cache
 C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\obj\Debug\StarTeamApp.dll
 C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\obj\Debug\StarTeamApp.pdb
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Bson.dll
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Driver.Core.dll
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Driver.dll
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Driver.Legacy.dll
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Bson.pdb
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Bson.xml
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Driver.pdb
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Driver.xml
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Driver.Core.pdb
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Driver.Core.xml
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Driver.Legacy.pdb
+C:\StartAppRepository\StartApp\StarTeam\StarTeamApp\bin\MongoDB.Driver.Legacy.xml

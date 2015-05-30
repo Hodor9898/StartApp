@@ -1,10 +1,21 @@
 ﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="mainApp">
 <head>
     <title></title>
-    <script src="AngularJS_Libs/angular-1.4.0/angular-1.4.0/angular.min.js"></script>
+    <style type="text/css" rel="stylesheet" href="css/bootstrap.min.css"></style>
 </head>
-    <body>
+    <body ng-controller="mainController">
+    <header>
+
+    </header>
+
+    <div class="content" ng-view>
         
+    </div>
+
+    <footer>
+        <script src="AngularJS_Libs/angular-1.4.0/angular-1.4.0/angular.min.js"></script>
+        <script src="scripts/global.js"></script>
+    </footer>
     </body>
 </html>

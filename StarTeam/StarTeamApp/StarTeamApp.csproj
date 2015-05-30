@@ -216,6 +216,9 @@
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\docs\components\open-sans-fontface-1.0.4\fonts\Semibold\OpenSans-Semibold.svg" />
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\docs\components\open-sans-fontface-1.0.4\index.html" />
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\docs\components\open-sans-fontface-1.0.4\open-sans.css" />
+    <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\docs\components\open-sans-fontface-1.0.4\open-sans.min.css">
+      <DependentUpon>open-sans.css</DependentUpon>
+    </Content>
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\docs\css\animations.css" />
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\docs\css\docs.css" />
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\docs\css\doc_widgets.css" />
@@ -2415,8 +2418,18 @@
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\i18n\angular-locale_zu-za.js" />
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\i18n\angular-locale_zu.js" />
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\version.txt" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\global.css" />
+    <Content Include="css\global.min.css">
+      <DependentUpon>global.css</DependentUpon>
+    </Content>
     <Content Include="Global.asax" />
     <Content Include="index.html" />
+    <Content Include="partials\project.html" />
+    <Content Include="partials\signup.html" />
+    <Content Include="partials\home.html" />
+    <Content Include="scripts\bootstrap.min.js" />
+    <Content Include="scripts\global.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -2430,6 +2443,7 @@
     <Folder Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\i18n\ngLocale\" />
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
+    <Folder Include="fonts\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -2655,6 +2669,19 @@
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\docs\js\search-worker.min.js.map" />
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\errors.json" />
     <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\version.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="less\global.less" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AngularJS_Libs\angular-1.4.0\angular-1.4.0\docs\components\open-sans-fontface-1.0.4\open-sans.css.map">
+      <DependentUpon>open-sans.css</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\global.css.map">
+      <DependentUpon>global.css</DependentUpon>
+    </Content>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
